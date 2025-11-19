@@ -1,6 +1,6 @@
 # Placebo handling
 
-This page showcase the model diagnosis and comparison for the E~max~ model 
+This page focuses on E-R data sets that include a placebo group, and how they can be analyzed using the BayesERtools package. 
 
 ```{r}
 #| output: FALSE
@@ -20,6 +20,8 @@ source(here("R", "cli_color_text.R"))
 ```
 
 ## Simulated data
+
+For the purposes of this chapter, a simulated data set is used. It is similar to the `d_sim_emax` data set supplied by BayesERtools but includes data from a placebo group. The exposure-response relationships in this data set are well-captured by a hyperbolic Emax model. 
 
 ```{r}
 #| echo: FALSE
